@@ -1,0 +1,146 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+header {
+    background-color: lightblue;
+}
+header img {
+    height: 70px;
+    width: 73px;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    padding: 20px;
+}
+ input {
+    display: block;
+    height: 48px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+ }
+ .form {
+    width: 98%;
+    margin: auto;
+ }
+ h1 {
+    font-family: "Eczar", cursive;
+    font-weight: 600;
+ }
+.Escolha {
+    background-color: lightblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: "Libre Bodoni";
+    font-weight: 400;
+}
+.Escolha:hover {
+    background-color: #6ec0dc;
+}
+::-webkit-input-placeholder {
+    position: relative;
+    top: 11px;
+    left: 10px;
+     font-size: 1.1em;
+}
+.Buscar {
+    display: block;
+    background-color: lightskyblue;
+    font-size: 1em;
+    width: 93vw;
+    height: 60px;
+    margin-top: -80px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Libre Bodoni";
+    font-weight: 700;
+    
+}
+.Buscar:hover {
+    background-color: #6ec0dc;
+}
+.Img {
+    width: 40px;
+    height: 10px;
+}
+#Local {
+    height: 30px;
+    position: relative;
+    bottom: 40px;
+    left: 400px;
+}
+#Embarque {
+    position: absolute;
+    height: 30px;
+    bottom: 484px;
+    left: 420px;
+}
+.Data {
+    display: inline-block;
+    justify-content: space-around;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 25%;
+}
+.Calendar {
+    position: relative;
+    height: 26px;
+    bottom: 35px;
+    left: 85px;
+    
+
+}
+.Tot {
+    border: 1px solid black;
+    width: 99%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: -30px;
+    
+}
+#Ida {
+    position: relative;
+    top: 39px;
+    left: 9px;
+    width: 100vw;
+    font-size: 0.9em;
+}
+#Volta {
+    position: relative;
+    top: 40px;
+    right: -5px;
+    width: 100vw;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+.Date {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    font-size: 0.9em;
+}
+.Passageiro {
+    position: relative;
+    bottom: 70px;
+}
+.Pass {
+    position: relative;
+    top: 40px;
+    left: 9px;
+}
+#Pessoas {
+    position: relative;
+    height: 30px;
+    width: 10%;
+    bottom: 40px;
+    left: 89%;
+}
+
+
