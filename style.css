@@ -120,14 +120,9 @@ header img {
     right: -5px;
     width: 100vw;
     font-size: 0.9em;
-    white-space: nowrap;
+
 }
-.Date {
-    position: relative;
-    top: 40px;
-    left: 10px;
-    font-size: 0.9em;
-}
+
 .Passageiro {
     position: relative;
     bottom: 70px;
@@ -139,10 +134,10 @@ header img {
 }
 #Pessoas {
     position: relative;
-    height: 30px;
-    width: 10%;
-    bottom: 40px;
-    left: 89%;
+    height: 20px;
+    width: 7%;
+    bottom: 23px;
+    left: 1%;
 }
 #Number {
     position: relative;
