@@ -54,8 +54,9 @@ header img {
     display: block;
     background-color: lightskyblue;
     font-size: 1em;
-    width: 93vw;
+    width: 85vw;
     height: 60px;
+    margin: auto;
     margin-top: -80px;
     cursor: pointer;
     border-radius: 10px;
