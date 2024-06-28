@@ -8,10 +8,10 @@ header {
     background-color: lightblue;
 }
 header img {
-    height: 70px;
-    width: 73px;
+    height: 73px;
+    width: 77px;
     display: block;
-    margin: 0 auto;
+    margin: 10px;
 }
 .container {
     padding: 20px;
@@ -26,7 +26,7 @@ header img {
  }
  .form {
     width: 98%;
-    margin: auto;
+    margin-top: -20px;
  }
  h1 {
     font-family: "Eczar", cursive;
@@ -162,6 +162,26 @@ header img {
 #VoouVolta {
     position: relative;
     left: 58px;
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        width: 40%;
+        margin: auto;
+    }
+    header {
+        height: 90px;
+    }
+    .Buscar {
+        width: 50%;
+    }
+    header img {
+        width: 100px;
+       height: 90px; 
+       margin: 20px;
+        
+    }
 }
 
 
